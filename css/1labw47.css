@@ -1,0 +1,50 @@
+.card {
+    width: 18rem;
+}
+li {
+    list-style-type: none;
+    margin: 10px 0;
+    text-decoration: underline;
+    color: #1e69de;
+}
+li img {
+    width: 50px;
+    height: 50px;
+    border: 1px solid red;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.card {
+    position: relative;
+}
+.alcoholImg {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    bottom: 65px;
+    right: 15px;
+}
+
+.ingredient_desc {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+    z-index: 1000;
+    background: #f1f1f1;
+    padding: 10px;
+    border: 1px solid #000db9;
+}
+.modal_img {
+    margin: auto;
+}
+.extra_modal,
+.extra_modal_find {
+    background: #007bff;
+    color: #fff;
+}
+.extra_modal_find {
+    float: right;
+}
+
+
